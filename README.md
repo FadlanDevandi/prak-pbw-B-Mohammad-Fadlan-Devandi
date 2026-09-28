@@ -35,6 +35,36 @@
    ![Kalkulator Sesudah](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/kalkulator_sesudah.png)
 
 
+2. Biodata.php
+   **Source Code Sebelum Modifikasi**
 
+![Code Biodata Sebelum](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/code_biodata_sebelum.png)
+
+![Code Biodata Sebelum 2](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/code_biodata_sebelum2.png)
+
+**Output Sebelum Modifikasi**
+
+![Biodata Sebelum](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/biodata_sebelum.png)
+
+### MODIFIKASI
+
+**Modifikasi 1**
+
+Menambahkan **program studi (prodi)** pada data mahasiswa. Program studi dimasukkan sebagai data baru pada array `$mahasiswa` dan kemudian ditampilkan pada halaman biodata.
+
+**Modifikasi 2**
+
+Menambahkan **status kelulusan berdasarkan IPK**. Program menggunakan fungsi `statusKelulusan()` untuk menentukan keterangan berdasarkan nilai IPK. Jika IPK ≥ 3.50 maka statusnya **"Sangat Memuaskan"**, jika IPK ≥ 3.00 maka **"Memuaskan"**, dan jika kurang dari 3.00 maka **"Perlu Peningkatan"**.
+
+### Source Code Sesudah Modifikasi
+
+![Code Biodata Sesudah](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/code_biodata_sesudah.png)
+
+![Code Biodata Sesudah 2](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/code_biodata_sesudah2.png)
+
+### Output Sesudah Modifikasi
+
+![Biodata Sesudah](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/biodata_sesudah.png)
+   
 
 

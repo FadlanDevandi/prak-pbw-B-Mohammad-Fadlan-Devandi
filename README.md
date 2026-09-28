@@ -7,6 +7,7 @@
 | Keterangan | Data |
 |---|---|
 | Nama | Mohammad Fadlan Devandi |
+| NPM | 4523210065 |
 | Mata Kuliah | Pemrograman Berbasis Web |
 | Pertemuan | Pertemuan 1 |
 

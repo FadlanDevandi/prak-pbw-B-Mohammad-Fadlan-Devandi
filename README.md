@@ -90,7 +90,6 @@ menambahkan fungsi statusMahasiswa() untuk menentukan status mahasiswa berdasark
 
 ![Code Identitas Sebelum](screenshot/screenshot%20tugas%202%20Praktikum%20PBW/code_identitas_sebelum.png)
 
-![Code Identitas Sebelum 2](screenshot/screenshot%20tugas%202%20Praktikum%20PBW/code_identitas_sebelum2.png)
 
 ### Output Sebelum Modifikasi
 

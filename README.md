@@ -10,8 +10,8 @@
 | Pertemuan | Pertemuan 1 |
 
 #TUGAS 1
-1. biodata.php
+1. kalkulator.php
 
-   ## Screenshot Source code
-   ![Biodata Sebelum](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/biodata_sebelum.png)
+   Screenshot Source code
+   ![kalkulator Sebelum](screenshot/screenshot%20tugas%201%20Praktikum%20PBW/biodata_sebelum.jpg)
    

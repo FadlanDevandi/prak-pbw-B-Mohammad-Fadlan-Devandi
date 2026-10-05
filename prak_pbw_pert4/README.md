@@ -17,7 +17,7 @@ Menambahkan field baru `jenis_kelamin` pada tabel `mahasiswa`.
 
 ## Sebelum
 
-![Source Code Sebelum](sourcecodese%20sebelum1tugas4.jpg)
+![Source Code Sebelum 1](<prak_pbw_pert4/screenshot tugas 4 Praktikum PBW/sourcecodesebelum1tugas4.jpg>)
 
 ```php
 $sqlCreateTables = [

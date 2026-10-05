@@ -36,7 +36,7 @@ alamat VARCHAR(200) NOT NULL,
 
 ## Sebelum:
 
-![Source Code Sebelum](sourcodesebelumtugas3.jpg)
+![Source Code Sebelum](screenshoot/sourcodesebelumtugas3.jpg)
 
 ```php
 $sqlCreateTables = [

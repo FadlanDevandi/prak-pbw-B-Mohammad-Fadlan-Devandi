@@ -104,7 +104,7 @@ $sqlCreateTables = [
 
 ## Sebelum
 
-![Database Sebelum](screenshot/database%20tugas3sebelum.jpg)
+![Database Sebelum](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sebelum.jpg)
 
 Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
@@ -118,7 +118,7 @@ Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
 ## Sesudah
 
-![Database Sesudah](screenshot/database%20tugas3sesudah.jpg)
+![Database Sesudah](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sesudah.jpg)
 
 Struktur tabel `mahasiswa` setelah dilakukan modifikasi:
 

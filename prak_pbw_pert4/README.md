@@ -80,6 +80,7 @@ Jika pembuatan tabel gagal, script akan menampilkan:
 ## Sebelum
 
 ![Source Code Sebelum 2](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesebelum2tugas4.jpg)
+
 ![Source Code Sebelum 2.1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesebelum2.1tugas4.jpg)
 
 
@@ -88,6 +89,7 @@ Jika pembuatan tabel gagal, script akan menampilkan:
 ## Sesudah
 
 ![Source Code Sesudah 2](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesesudah2tugas4.jpg)
+
 ![Source Code Sesudah 2.1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesesudah2.1tugas4.jpg)
 
 ### Validasi Koneksi Database

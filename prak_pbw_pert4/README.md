@@ -20,44 +20,14 @@ Menambahkan field baru `jenis_kelamin` pada tabel `mahasiswa`.
 ![Source Code Sebelum 1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesebelum1tugas4.jpg)
 
 
-```php
-$sqlCreateTables = [
-    "CREATE TABLE IF NOT EXISTS mahasiswa (
-        id BIGINT
-        UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nim VARCHAR(15) NOT NULL UNIQUE,
-        nama VARCHAR(100) NOT NULL,
-        email VARCHAR(120) NOT NULL
-        UNIQUE,
-        prodi VARCHAR(80) NOT NULL,
-        angkatan YEAR NOT NULL,
-        ipk DECIMAL(3,2) DEFAULT 0.00
-    ) ENGINE=InnoDB"
-];
-```
+
 
 ## Sesudah
 
 ![Source Code Sesudah 1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesesudah1tugas4.jpg)
 
 
-```php
-$sqlCreateTables = [
-    // Modifikasi 1: Menambahkan field jenis_kelamin
-    "CREATE TABLE IF NOT EXISTS mahasiswa (
-        id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nim VARCHAR(15) NOT NULL UNIQUE,
-        nama VARCHAR(100) NOT NULL,
-        email VARCHAR(120) NOT NULL UNIQUE,
-        prodi VARCHAR(80) NOT NULL,
-        angkatan YEAR NOT NULL,
-        ipk DECIMAL(3,2) DEFAULT 0.00,
-        jenis_kelamin ENUM('L', 'P') DEFAULT 'L'
-    ) ENGINE=InnoDB"
-];
-```
 
----
 
 # RUN
 
@@ -113,29 +83,7 @@ Jika pembuatan tabel gagal, script akan menampilkan:
 ![Source Code Sebelum 2.1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesebelum2.1tugas4.jpg)
 
 
-```php
-$sqlCreateDB = "CREATE DATABASE IF NOT EXISTS akademik";
 
-if (mysqli_query($koneksi, $sqlCreateDB)) {
-    echo "Database berhasil dibuat atau sudah ada.\n";
-} else {
-    echo "Error membuat database: " . mysqli_error($koneksi) . "\n";
-}
-
-mysqli_set_charset($koneksi, "utf8mb4");
-
-mysqli_select_db($koneksi, 'akademik');
-
-foreach ($sqlCreateTables as $namaTabel => $query) {
-    if (mysqli_query($koneksi, $query)) {
-        echo
-        "Tabel berhasil dibuat atau sudah ada.\n";
-    } else {
-        echo "Gagal membuat tabel: "
-        . mysqli_error($koneksi) . "\n";
-    }
-}
-```
 
 ## Sesudah
 
@@ -164,29 +112,6 @@ if (mysqli_query($koneksi, $sqlCreateDB)) {
 
 ### Array Nama Tabel Agar Pesan Error Lebih Informatif
 
-```php
-// Modifikasi 2: Array nama tabel agar pesan error lebih informatif
-$namaTabel = ['mahasiswa', 'dosen', 'mata_kuliah'];
-
-foreach ($sqlCreateTables as $index => $query) {
-
-    if (mysqli_query($koneksi, $query)) {
-
-        echo "[OK] Tabel {$namaTabel[$index]} berhasil dibuat atau sudah ada.\n";
-
-    } else {
-
-        // Modifikasi 2: Pesan error lebih detail dan hentikan proses
-        echo "[ERROR] Gagal membuat tabel: {$namaTabel[$index]}\n";
-        echo "Kode Error : " . mysqli_errno($koneksi) . "\n";
-        echo "Pesan Error: " . mysqli_error($koneksi) . "\n";
-
-        exit; // Hentikan script agar tidak lanjut error berantai
-    }
-}
-```
-
----
 
 # RUN
 

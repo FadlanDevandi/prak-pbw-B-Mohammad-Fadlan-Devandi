@@ -36,7 +36,7 @@ alamat VARCHAR(200) NOT NULL,
 
 ## Sebelum:
 
-![Source Code Sebelum](screenshot/source-code-sebelum.png)
+![Source Code Sebelum](sourcodesebelumtugas3.jpg)
 
 ```php
 $sqlCreateTables = [
@@ -66,7 +66,7 @@ $sqlCreateTables = [
 
 ## Sesudah:
 
-![Source Code Sesudah](screenshot/source-code-sesudah.png)
+![Source Code Sesudah](sourcodesesudahtugas3.jpg)
 
 ```php
 $sqlCreateTables = [
@@ -104,7 +104,7 @@ $sqlCreateTables = [
 
 ## Sebelum
 
-![Database Sebelum](screenshot/database-sebelum.png)
+![Database Sebelum](databasetugas3sebelum.jpg)
 
 Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
@@ -118,7 +118,7 @@ Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
 ## Sesudah
 
-![Database Sesudah](screenshot/database-sesudah.png)
+![Database Sesudah](databasetugas3sesudah.jpg)
 
 Struktur tabel `mahasiswa` setelah dilakukan modifikasi:
 

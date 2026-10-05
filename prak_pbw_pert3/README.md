@@ -66,7 +66,7 @@ $sqlCreateTables = [
 
 ## Sesudah:
 
-![Source Code Sesudah](screenshot%20tugas%203%20Praktikum%20PBW/sourcodesudahtugas3.jpg)
+![Source Code Sesudah](prak_pbw_pert3/screenshot tugas 3 Praktikum PBW/databasetugas3sesudah.jpg)
 
 ```php
 $sqlCreateTables = [

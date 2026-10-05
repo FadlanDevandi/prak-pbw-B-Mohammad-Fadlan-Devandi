@@ -36,7 +36,7 @@ alamat VARCHAR(200) NOT NULL,
 
 ## Sebelum:
 
-![Source Code Sebelum](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/sourcodesebelumtugas3.jpg)
+![Source Code Sebelum](screenshot%20tugas%203%20Praktikum%20PBW/sourcodesebelumtugas3.jpg)
 
 ```php
 $sqlCreateTables = [
@@ -66,7 +66,7 @@ $sqlCreateTables = [
 
 ## Sesudah:
 
-![Source Code Sesudah](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/sourcodesudahtugas3.jpg)
+![Source Code Sesudah](screenshot%20tugas%203%20Praktikum%20PBW/sourcodesudahtugas3.jpg)
 
 ```php
 $sqlCreateTables = [
@@ -104,7 +104,7 @@ $sqlCreateTables = [
 
 ## Sebelum
 
-![Database Sebelum](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sebelum.jpg)
+![Database Sebelum](screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sebelum.jpg)
 
 Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
@@ -118,7 +118,7 @@ Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
 ## Sesudah
 
-![Database Sesudah](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sesudah.jpg)
+![Database Sesudah](screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sesudah.jpg)
 
 Struktur tabel `mahasiswa` setelah dilakukan modifikasi:
 

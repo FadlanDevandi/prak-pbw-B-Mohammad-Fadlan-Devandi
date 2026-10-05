@@ -266,15 +266,3 @@ Dengan demikian, koneksi MySQL tetap aktif selama proses pembuatan database dan 
 
 ---
 
-# Run
-
-## Sebelum
-
-![Run Sebelum](screenshot/run-sebelum.png)
-
-## Sesudah
-
-![Run Sesudah](screenshot/run-sesudah.png)
-
----
-

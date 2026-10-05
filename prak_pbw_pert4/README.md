@@ -198,7 +198,7 @@ Program dijalankan sebelum penambahan validasi koneksi database dan error handli
 
 ## Sesudah
 
-![Run Sesudah](screenshot%20tugas%204%20Praktikum%20PBW/runsudahtugas4.jpg)
+![Run Sesudah](screenshot%20tugas%204%20Praktikum%20PBW/runsesudahtugas4.jpg)
 
 Program dijalankan setelah penambahan validasi koneksi database dan error handling.
 

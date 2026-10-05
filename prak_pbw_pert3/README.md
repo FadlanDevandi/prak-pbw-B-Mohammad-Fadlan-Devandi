@@ -66,7 +66,7 @@ $sqlCreateTables = [
 
 ## Sesudah:
 
-![Source Code Sesudah](sourcodesesudahtugas3.jpg)
+![Source Code Sesudah](screenshot/sourcodesudahtugas3.jpg)
 
 ```php
 $sqlCreateTables = [
@@ -104,7 +104,7 @@ $sqlCreateTables = [
 
 ## Sebelum
 
-![Database Sebelum](databasetugas3sebelum.jpg)
+![Database Sebelum](screenshot/database%20tugas3sebelum.jpg)
 
 Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
@@ -118,7 +118,7 @@ Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
 ## Sesudah
 
-![Database Sesudah](databasetugas3sesudah.jpg)
+![Database Sesudah](screenshot/database%20tugas3sesudah.jpg)
 
 Struktur tabel `mahasiswa` setelah dilakukan modifikasi:
 

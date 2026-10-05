@@ -38,7 +38,8 @@ $sqlCreateTables = [
 
 ## Sesudah
 
-![Source Code Sesudah](sourcecodesesudah1tugas4.jpg)
+![Source Code Sesudah 1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesesudah1tugas4.jpg)
+
 
 ```php
 $sqlCreateTables = [
@@ -62,7 +63,8 @@ $sqlCreateTables = [
 
 ## Sebelum
 
-![Database Sebelum](rundatabasesebelumtugas4.jpg)
+![Database Sebelum](screenshot%20tugas%204%20Praktikum%20PBW/rundatabasesebelumtugas4.jpg)
+
 
 Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
@@ -76,7 +78,7 @@ Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
 ## Sesudah
 
-![Database Sesudah](rundatabasesudahtugas4.jpg)
+![Database Sesudah](screenshot%20tugas%204%20Praktikum%20PBW/rundatabasesudahtugas4.jpg)
 
 Struktur tabel `mahasiswa` setelah dilakukan modifikasi:
 
@@ -107,7 +109,9 @@ Jika pembuatan tabel gagal, script akan menampilkan:
 
 ## Sebelum
 
-![Source Code Sebelum](sourcecodese%20belum2tugas4.jpg)
+![Source Code Sebelum 2](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesebelum2tugas4.jpg)
+![Source Code Sebelum 2.1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesebelum2.1tugas4.jpg)
+
 
 ```php
 $sqlCreateDB = "CREATE DATABASE IF NOT EXISTS akademik";
@@ -135,7 +139,8 @@ foreach ($sqlCreateTables as $namaTabel => $query) {
 
 ## Sesudah
 
-![Source Code Sesudah](sourcecodesesudah2tugas4.jpg)
+![Source Code Sesudah 2](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesesudah2tugas4.jpg)
+![Source Code Sesudah 2.1](screenshot%20tugas%204%20Praktikum%20PBW/sourcecodesesudah2.1tugas4.jpg)
 
 ### Validasi Koneksi Database
 
@@ -187,13 +192,13 @@ foreach ($sqlCreateTables as $index => $query) {
 
 ## Sebelum
 
-![Run Sebelum](runsebelumtugas4.jpg)
+![Run Sebelum](screenshot%20tugas%204%20Praktikum%20PBW/runsebelumtugas4.jpg)
 
 Program dijalankan sebelum penambahan validasi koneksi database dan error handling.
 
 ## Sesudah
 
-![Run Sesudah](runsudahtugas4.jpg)
+![Run Sesudah](screenshot%20tugas%204%20Praktikum%20PBW/runsudahtugas4.jpg)
 
 Program dijalankan setelah penambahan validasi koneksi database dan error handling.
 

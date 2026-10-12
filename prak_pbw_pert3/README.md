@@ -36,75 +36,20 @@ alamat VARCHAR(200) NOT NULL,
 
 ## Sebelum:
 
-![Source Code Sebelum](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/sourcodesebelumtugas3.jpg)
+![Source Code Sebelum](screenshot%20tugas%203%20Praktikum%20PBW/sourcodesebelumtugas3.jpg)
 
-```php
-$sqlCreateTables = [
-    "CREATE TABLE IF NOT EXISTS
-    mahasiswa (
-        id BIGINT
-        UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nim VARCHAR(15) NOT NULL UNIQUE,
-        nama VARCHAR(100) NOT NULL,
-        email VARCHAR(120) NOT NULL
-        UNIQUE,
-        prodi VARCHAR(80) NOT NULL,
-        angkatan YEAR NOT NULL,
-        ipk DECIMAL(3,2) DEFAULT 0.00
-    ) ENGINE=InnoDB",
-
-    "CREATE TABLE IF NOT EXISTS dosen (
-        id BIGINT
-        UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nidn VARCHAR(20) NOT NULL UNIQUE,
-        nama VARCHAR(100) NOT NULL,
-        email VARCHAR(120) NOT NULL
-        UNIQUE
-    ) ENGINE=InnoDB"
-];
-```
 
 ## Sesudah:
 
-![Source Code Sesudah](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/sourcodesudahtugas3.jpg)
+![Source Code Sesudah](./screenshot%20tugas%203%20Praktikum%20PBW/sourcodesesudahtugas3.jpg)
 
-```php
-$sqlCreateTables = [
-    "CREATE TABLE IF NOT EXISTS
-    mahasiswa (
-        id BIGINT
-        UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nim VARCHAR(15) NOT NULL UNIQUE,
-        nama VARCHAR(100) NOT NULL,
-        email VARCHAR(120) NOT NULL
-        UNIQUE,
 
-        no_hp VARCHAR(15) NOT NULL,
-        alamat VARCHAR(200) NOT NULL,
-
-        prodi VARCHAR(80) NOT NULL,
-        angkatan YEAR NOT NULL,
-        ipk DECIMAL(3,2) DEFAULT 0.00
-    ) ENGINE=InnoDB",
-
-    "CREATE TABLE IF NOT EXISTS dosen (
-        id BIGINT
-        UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-        nidn VARCHAR(20) NOT NULL UNIQUE,
-        nama VARCHAR(100) NOT NULL,
-        email VARCHAR(120) NOT NULL
-        UNIQUE
-    ) ENGINE=InnoDB"
-];
-```
-
----
 
 # Run
 
 ## Sebelum
 
-![Database Sebelum](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sebelum.jpg)
+![Database Sebelum](screenshot%20tugas%203%20Praktikum%20PBW/databasetugas3sebelum.jpg)
 
 Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
@@ -118,7 +63,7 @@ Struktur tabel `mahasiswa` sebelum dilakukan modifikasi:
 
 ## Sesudah
 
-![Database Sesudah](screenshot/screenshot%20tugas%203%20Praktikum%20PBW/database%20tugas3sesudah.jpg)
+![Database Sesudah](screenshot%20tugas%203%20Praktikum%20PBW/databasetugas3sesudah.jpg)
 
 Struktur tabel `mahasiswa` setelah dilakukan modifikasi:
 

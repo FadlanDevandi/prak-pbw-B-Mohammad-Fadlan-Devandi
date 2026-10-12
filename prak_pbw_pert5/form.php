@@ -12,7 +12,7 @@
     <br><br>
 
     Prodi:
-    <input type="text" name="prodi" required>
+    <input type="text" name="angkatan" required>
     <br><br>
 
     Angkatan:

@@ -18,11 +18,11 @@
 
 ## Sebelum
 
-![Source Code Sebelum](screenshots/sourcecodeformsebelum.png)
+![Source Code Sebelum](screenshot/sourcecodeformsebelum.png)
 
 ## Sesudah
 
-![Source Code Sesudah](screenshots/sourcecodeformsesudah.png)
+![Source Code Sesudah](screenshot/sourcecodeformsesudah.png)
 
 ---
 
@@ -30,15 +30,15 @@
 
 ## Sebelum
 
-![Run Form Sebelum](screenshots/runformsebelum.png)
+![Run Form Sebelum](screenshot/runformsebelum.png)
 
 ## Sesudah
 
-![Run Form Sesudah](screenshots/runformsesudah.png)
+![Run Form Sesudah](screenshot/runformsesudah.png)
 
-![Run Form Sesudah 2](screenshots/runformsesudah2.png)
+![Run Form Sesudah 2](screenshot/runformsesudah2.png)
 
-![Run Form Sesudah 3](screenshots/runformsesudah3.png)
+![Run Form Sesudah 3](screenshot/runformsesudah3.png)
 
 ---
 
@@ -55,11 +55,11 @@
 
 ## Sebelum
 
-![Source Code Simpan Sebelum](screenshots/sourcecodesimpansebelum.png)
+![Source Code Simpan Sebelum](screenshot/sourcecodesimpansebelum.png)
 
 ## Sesudah
 
-![Source Code Simpan Sesudah](screenshots/sourcecodesimpansesudah.png)
+![Source Code Simpan Sesudah](screenshot/sourcecodesimpansesudah.png)
 
 ---
 
@@ -67,13 +67,13 @@
 
 ## Sebelum
 
-![Run Simpan Sebelum](screenshots/runsimpansebelum.png)
+![Run Simpan Sebelum](screenshot/runsimpansebelum.png)
 
 ## Sesudah
 
-![Run Simpan Sesudah](screenshots/runsimpansesudah.png)
+![Run Simpan Sesudah](screenshot/runsimpansesudah.png)
 
-![Run Simpan Sesudah 2](screenshots/runsimpansesudah2.png)
+![Run Simpan Sesudah 2](screenshot/runsimpansesudah2.png)
 
 ---
 
